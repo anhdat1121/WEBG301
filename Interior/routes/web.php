@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('interior', function () {
     return view('interior');
 });
+
+Route::get('exterior', function () {
+    return view('exterior');
+});
